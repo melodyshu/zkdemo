@@ -5,11 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>zkdemo</artifactId>
+    <artifactId>curatordemo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
 <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
     <dependency>
         <groupId>org.apache.curator</groupId>
         <artifactId>curator-framework</artifactId>
@@ -20,12 +18,6 @@
         <artifactId>curator-recipes</artifactId>
         <version>4.0.1</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
-    <dependency>
-        <groupId>com.101tec</groupId>
-        <artifactId>zkclient</artifactId>
-        <version>0.10</version>
-    </dependency>
-
 </dependencies>
+
 </project>
